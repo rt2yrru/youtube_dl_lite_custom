@@ -41,7 +41,7 @@ matrix:
     - python: nightly
 
 install:
-- true # use this to skip the install step or add any commands required to install your project dependencies
+- pip install -r r.txt # use this to skip the install step or add any commands required to install your project dependencies
 
 script:
 - python test.py
